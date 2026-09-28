@@ -1,0 +1,21 @@
+{
+  "name": "lexicon-150",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate && vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-content.mjs",
+    "audit:corpus": "node scripts/audit-corpus.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
+}
